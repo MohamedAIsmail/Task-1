@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<style>
+.topdis{
+  color:white;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10%
+}
+.afterit{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+a{
+  color:black;
+
+}
+nav{
+  background-color: white;
+
+}
+h2{
+   font-size: normal;
+  display: inline-block;
+  color: grey;
+  font-style: normal;
+  margin:20px 700px 40px 130px;
+
+}
+h3:hover{
+  color: Blue;
+}
+h3{
+  hover: purple;
+  font-size: medium;
+  display: inline-block;
+  text-align: center;
+  margin: 0px 30px 0px 0px;
+}
+ul{
+  text-align: center;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  z-index: 1;
+}
+.dropdown-content a{
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{background-color: white;}
+.dropdown:hover .dropdown-content{display:block;}
+.dropbtn{
+  border:none;
+  margin-bottom:;
+  background-color: none;
+
+}
+body{
+  background-image: url(Ocean.jpg)
+}
+*{margin:0;
+padding:0;}
+input[type=text]{
+
+  width:130px;
+  -webkit-transition:width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out ;
+}
+input[type=text]:focus{
+  width=50%;
+}
+
+.button1{
+  transition-duration: 0.4s
+  display:inline-block;
+  padding:20px 80px;
+  margin-left:700px;
+  align:center;
+  background-color: purple;
+  border:none;
+  text-align: center;
+  color:white;
+  text-decoration: none;
+}
+.button1:hover{
+  background-color: purple;
+  color:white;
+}
+.button2{
+  transition-duration: 0.4s;
+  background-color: none;
+  display:inline-block;
+  align:center;
+  padding:20px 80px;
+  text-align: center;
+  text-decoration: none;
+}
+.button2:hover{
+  background-color: white;
+  color:black;
+}
+
+</style>
+
+
+<nav>
+<h2> Shapely Demo </h2>
+
+<a href=""><h3>HOME</h3></a>
+<a href=""><h3>BLOG</h3></a>
+<a href=""><h3>PORTFOLIO</h3></a>
+
+<div class="dropdown">
+<a href=""><h3>ABOUT THE TESTS</h3>
+<div class="dropdown-content">
+  <a href="">Page Image Alighnment</a>
+  <a href="">Page Markup and Formatting</a>
+  <a href="">Clearing Floats</a>
+  <a href="">Page with Comments</a>
+  <a href="">Page with Comments Disabled</a>
+</div>
+</div>
+
+<div class="dropdown">
+<a href=""><h3>LEVEL1</h3>
+<div class="dropdown-content">
+  <a href="">Level2</a>
+  <a href="">Level2a</a>
+  <a href="">Level2b</a>
+</div>
+</div>
+
+<div class="dropdown">
+<a href=""><h3>SHOP</h3>
+<div class="dropdown-content">
+<a href="">PageA</a>
+<a href="">PageB</a>
+</div>
+</div>
+<input type="text" name="search" placeholder="Search..">
+
+</nav>
+<body>
+
+<p class="topdis">We Change Everything<br>WordPress</p>
+<p class="afterit">This is the only WordPress theme you will ever want to use.</p>
+
+  <button class="button1">Read More</button>
+  <button class="button2">Download Now</button>
+
+
+</body>
+
+
+</html>
